@@ -70,17 +70,17 @@
    "use_host_network" : false,
    "volume_bindings" : [
       {
-         "host_volume_file" : "/data/sync/Documents Stéphane Laetitia/paperless/consume",
+         "host_volume_file" : "/volume1/SmartHome/paperless/consume",
          "mount_point" : "/consume",
          "type" : "rw"
       },
       {
-         "host_volume_file" : "/data/sync/Documents Stéphane Laetitia/paperless/media",
+         "host_volume_file" : "/volume1/SmartHome/paperless/media",
          "mount_point" : "/usr/src/paperless/media",
          "type" : "rw"
       },
       {
-         "host_volume_file" : "/data/sync/Documents Stéphane Laetitia/paperless/data",
+         "host_volume_file" : "//volume1/SmartHome/paperless/data",
          "mount_point" : "/usr/src/paperless/data",
          "type" : "rw"
       }
