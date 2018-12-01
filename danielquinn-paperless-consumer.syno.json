@@ -80,7 +80,7 @@
          "type" : "rw"
       },
       {
-         "host_volume_file" : "//volume1/SmartHome/paperless/data",
+         "host_volume_file" : "/volume1/SmartHome/paperless/data",
          "mount_point" : "/usr/src/paperless/data",
          "type" : "rw"
       }
